@@ -8,7 +8,6 @@ body {
   font-family: sans-serif;
   background: url("../assets/bg.jpg") center center fixed;
   background-size: cover;
-  color: white;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -17,7 +16,7 @@ body {
 }
 
 .wrapper {
-  background-color: forestgreen;
+  background-color: darksalmon;
   position: fixed;
   inset: 0;
   z-index: -1;
@@ -25,7 +24,7 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 4rem;
   text-transform: capitalize;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -48,17 +47,19 @@ h1 {
   inset: 0;
   border-radius: 50%;
   background-color: rgb(79, 162, 244);
-  transform: translateY(-3px);
 }
 
 .hand {
-  width: 50%;
+  width: 48%;
   height: 6px;
   background-color: black;
   position: absolute;
   top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.second-hand {
+  background-color: tomato;
 }
